@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Ladies Fashion Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Same header as index.html -->
+    <header class="header">
+        <!-- Copy header from index.html -->
+    </header>
+
+    <section class="products-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>All Products</h1>
+                <div class="filters">
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                    </select>
+                    <select id="priceFilter">
+                        <option value="">All Prices</option>
+                        <option value="0-500">₹0 - ₹500</option>
+                        <option value="500-1000">₹500 - ₹1000</option>
+                        <option value="1000+">₹1000+</option>
+                    </select>
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+            </div>
+            <div class="products-grid" id="allProducts">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
